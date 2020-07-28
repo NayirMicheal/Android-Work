@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopbtn">70dp</dimen>
+    <dimen name="margin_dim">6dp</dimen>
+    <dimen name="sizefname">35sp</dimen>
+    <dimen name="magin_left_detail">10dp</dimen>
+    <dimen name="margintop_reviews_item">10dp</dimen>
+    <dimen name="magrin_left_author">10dp</dimen>
+    <dimen name="margin_left_trailer">10dp</dimen>
+    <dimen name="width_trailer">60dp</dimen>
+    <dimen name="trailer_height">60dp</dimen>
+    <dimen name="magrin_bottom_reviewItem">10dp</dimen>
+    <dimen name="right_empty_view">8dp</dimen>
+    <dimen name="left_empty_view">8dp</dimen>
+    <dimen name="divider_wid">1dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="pBar_mag_top">250dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="fLayout_mLeft">10dp</dimen>
+    <dimen name="fLayout_mRight">10dp</dimen>
+    <dimen name="m_bottom_detail_frag">10dp</dimen>
+    <dimen name="img_size_detail">200dp</dimen>
+    <dimen name="img_size2_detail">200dp</dimen>
+    <dimen name="m_top_scroll">5dp</dimen>
+    <dimen name="Txt_size_rel_date">15sp</dimen>
+    <dimen name="item_view_lMargin">12dp</dimen>
+    <dimen name="item_view_tMargin">10dp</dimen>
+    <dimen name="item_view_img_wid">80dp</dimen>
+    <dimen name="item_view_img_hei">80dp</dimen>
+    <dimen name="item_view_Txt_wid">100dp</dimen>
+    <dimen name="item_view_Txt2_wid">80dp</dimen>
+    <dimen name="review_item_txt_S">15sp</dimen>
+    <dimen name="Tra_item_txt_wid">80dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/magrin_bottom_reviewItem"
+              android:layout_marginTop="@dimen/margintop_reviews_item"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/aut"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/magrin_left_author"
+        android:layout_marginRight="@dimen/fLayout_mRight"
+        android:layout_weight="3.25"
+        android:gravity="center"
+        android:text="@string/author"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/review_item_txt_S"
+        />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:text="@string/description"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

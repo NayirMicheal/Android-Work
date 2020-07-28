@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/margin_left_trailer"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/traileryoutube"
+        android:layout_width="@dimen/width_trailer"
+        android:layout_height="@dimen/trailer_height"
+        android:layout_gravity="center"
+        android:src="@drawable/unnamed"/>
+
+    <TextView
+        android:id="@+id/trailername"
+        android:layout_width="@dimen/Tra_item_txt_wid"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="trailerName"
+        android:textColor="@android:color/black"/>
+</LinearLayout>

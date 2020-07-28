@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="MoviesApiUrl">http://api.themoviedb.org/</string>
+    <string name="success_save">Retreiving successful</string>
+    <string name="fail_save">failure in saving</string>
+    <string name="insertString">inserting</string>
+    <string name="search">Search</string>
+    <string name="Update">update</string>
+    <string name="Not_success">Not Successful</string>
+    <string name="fail">Failure</string>
+    <string name="name">Name</string>
+    <string name="relaseddate">Date</string>
+    <string name="source1">from net</string>
+    <string name="source2">From dataBase</string>
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="check_your_internet_connection">Check your Internet Connection, also Database is empty</string>
+    <string name="Server_Error">Server Error</string>
+    <string name="Chk_Con">Please Check your Internet Connection</string>
+    <string name="match_string">Unable to resolve host</string>
+    <string name="cantRetrieve">Can\'t retrieve from Database</string>
+</resources>

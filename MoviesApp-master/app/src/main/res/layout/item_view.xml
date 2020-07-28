@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/item_view_lMargin"
+              android:layout_marginTop="@dimen/item_view_tMargin"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="@dimen/item_view_img_wid"
+        android:layout_height="@dimen/item_view_img_hei"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="@dimen/item_view_Txt_wid"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="3"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/relDate"
+        android:layout_width="@dimen/item_view_Txt2_wid"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/relaseddate"
+        />
+
+</LinearLayout>
