@@ -1,0 +1,34 @@
+<resources>
+    <string name="loading">Loading content</string>
+    <string name="app_name">NewTweets</string>
+    <string name="action_settings">Settings</string>
+    <string name="consumer_key">F75QvmkiIAVCjUwNQVs96IRdd</string>
+    <string name="consumer_secret">PlJ6E74Vba66s7mtvFMFacYVWzQNGIDgv0KVK9PFwoKYS9DpP7</string>
+    <string name="token_url">https://api.twitter.com/oauth2/token</string>
+    <string name="utf8">UTF-8</string>
+    <string name="semicolon">:</string>
+    <string name="postmethod">POST</string>
+    <string name="hostkey">Host</string>
+    <string name="host_value">api.twitter.com</string>
+    <string name="useragent_key">User-Agent</string>
+    <string name="user_agent_value">1</string>
+    <string name="auth_key">Authorization</string>
+    <string name="basics_key">"Basic "</string>
+    <string name="contnet_type_key">Content-Type</string>
+    <string name="content_type_value">application/x-www-form-urlencoded;charset=UTF-8</string>
+    <string name="content_len_key">Content-Length</string>
+    <string name="content_len_value">29</string>
+    <string name="grant_type">grant_type=client_credentials</string>
+    <string name="token_type">token_type</string>
+    <string name="token_access">access_token</string>
+    <string name="testurl"><![CDATA[https://api.twitter.com/1.1/search/tweets.json?q=%23]]></string>
+    <string name="get">GET</string>
+    <string name="accept_encode">Accept-Encoding</string>
+    <string name="accept_encode_value">identity</string>
+    <string name="content_type_json">application/json;charset=utf-8</string>
+    <string name="exception">Invalid endpoint URL specified.</string>
+    <string name="statusarray">statuses</string>
+    <string name="textkey">text</string>
+    <string name="Enter_valid_value">Your should Enter a topic to search for it</string>
+    <string name="failure">Failure to get data from twitter</string>
+</resources>
