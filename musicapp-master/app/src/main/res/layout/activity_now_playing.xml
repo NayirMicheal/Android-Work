@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nayir.musicapp.NowPlaying">
+
+    <TextView
+        style="@style/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Nowplaying" />
+
+    <TextView
+        style="@style/cont"
+        android:background="@color/material_deep_teal_200"
+        android:text="@string/descpritnowplay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+    <Button
+            android:id="@+id/btn1nw"
+            style="@style/btn"
+            android:text="@string/main" />
+
+        <Button
+            android:id="@+id/btn2nw"
+            style="@style/btn"
+            android:text="@string/Store" />
+
+        <Button
+            android:id="@+id/btn3nw"
+            style="@style/btn"
+            android:text="@string/Search" />
+    </LinearLayout>
+
+</LinearLayout>

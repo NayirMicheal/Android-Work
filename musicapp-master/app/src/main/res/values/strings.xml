@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_now_playing">NowPlaying</string>
+    <string name="title_activity_store_screen">StoreScreen</string>
+    <string name="title_activity_search">Search</string>
+    <string name="Nowplaying">Now Playying</string>
+    <string name="Store">Store Screen</string>
+    <string name="Search">Search</string>
+    <string name="Image">ImageOfMusicIcon</string>
+    <string name="descpritnowplay">This is the Now playing Acticity for playing music from the library you got on your device</string>
+    <string name="Mainhead">Music App</string>
+    <string name="main">Main</string>
+    <string name="descriptsearch">This Activity is to search on the device for specific track you want to listen</string>
+    <string name="descriptstore">This Activity is to buy original tracks from our online store</string>
+</resources>

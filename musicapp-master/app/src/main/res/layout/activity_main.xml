@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/mainhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Mainhead" />
+
+    <TextView
+        android:id="@+id/nwpl"
+        style="@style/textst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_deep_teal_200"
+        android:text="@string/Nowplaying" />
+
+    <TextView
+        android:id="@+id/stron"
+        style="@style/textst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_grey_300"
+        android:text="@string/Store" />
+
+    <TextView
+        android:id="@+id/sea"
+        style="@style/textst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/foreground_material_dark"
+        android:text="@string/Search" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Image"
+        android:src="@drawable/music2" />
+</LinearLayout>

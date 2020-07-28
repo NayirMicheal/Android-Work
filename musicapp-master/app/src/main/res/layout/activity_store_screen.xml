@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nayir.musicapp.StoreScreen"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/head"
+        android:text="@string/Store" />
+
+    <TextView
+        style="@style/cont"
+        android:background="@color/material_deep_teal_200"
+        android:text="@string/descriptstore" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1st"
+            style="@style/btn"
+            android:text="@string/main" />
+
+        <Button
+            android:id="@+id/btn2st"
+            style="@style/btn"
+            android:text="@string/Nowplaying"/>
+
+        <Button
+            android:id="@+id/btn3st"
+            style="@style/btn"
+            android:text="@string/Search" />
+    </LinearLayout>
+
+</LinearLayout>
